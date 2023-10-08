@@ -1,3 +1,7 @@
 for i in range(-5,6) :  # (1)번 퀴즈
     print(i)
 
+Genres=['rock', 'R&B','Soundtrack', 'R&B','soul','pop']  # (2)번 퀴즈
+for i in Genres :
+  print (i)
+
