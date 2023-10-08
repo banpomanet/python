@@ -1,0 +1,3 @@
+a_list=[1, 'hello', [1,2,3], True] # 3과 list (1번 퀴즈)
+a_list
+
