@@ -5,3 +5,22 @@ Genres=['rock', 'R&B','Soundtrack', 'R&B','soul','pop']  # (2)번 퀴즈
 for i in Genres :
   print (i)
 
+squares=['red','yellow','green','purple','blue'] # (3)번 퀴즈
+for i in squares :
+  print (i)
+
+PlayListRatings = [10, 9.5, 10, 8, 7.5, 5, 10, 10] # (4)번 퀴즈
+i = 1
+Rating = PlayListRatings[0]
+while(Rating >= 6):
+    print(Rating)
+    Rating = PlayListRatings[i]
+    i = i + 1
+
+squares = ['orange', 'orange', 'purple', 'blue ', 'orange'] # (5)번 퀴즈
+new_squares = []
+i = 0
+while(squares[i] == 'orange'):
+    new_squares.append(squares[i])
+    i = i + 1
+print (new_squares)
