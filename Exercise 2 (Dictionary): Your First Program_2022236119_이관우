@@ -1,1 +1,6 @@
+soundtrack_dic={"The Bodyguard":"1992", "Saturday Night Forever":"1997"} #1번 문제의 (a)
+soundtrack_dic
+soundtrack_dic.keys()
+
+soundtrack_dic.values() #1번 문제의 (b)
 
