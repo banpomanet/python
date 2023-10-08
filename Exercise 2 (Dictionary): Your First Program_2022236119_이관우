@@ -9,3 +9,6 @@ album_sales_dict
 
 album_sales_dict['Thriller'] #2번 문제의 (b)
 
+album_sales_dict.keys() #2번 문제의 (c)
+
+album_sales_dict.values() #2번 문제의 (d)
