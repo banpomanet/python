@@ -1,1 +1,7 @@
+def div(a,b) : # (1)번 문제
+  c=a/b
+  return(c)
 
+Yes, for example, con(3,3)  # (2)번 문제
+
+Yes, for example, con(['a',1],[b',2])  # (2)번 문제
