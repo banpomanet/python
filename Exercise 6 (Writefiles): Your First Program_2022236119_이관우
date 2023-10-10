@@ -3,3 +3,10 @@ drive.mount('/content/gdrive')
 
 with open('/content/gdrive/My Drive/Colab Notebooks/example2.txt', 'w') as writefile:
     writefile.write("This is line A")
+# 구글드라이브에 exmaple2로 저장됨
+# This is line A 
+
+with open('/content/gdrive/My Drive/Colab Notebooks/example2.txt', 'r') as testwritefile:
+    print(testwritefile.read())
+This is line A
+
