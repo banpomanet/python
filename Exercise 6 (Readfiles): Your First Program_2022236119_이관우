@@ -1,1 +1,30 @@
+[We read the file:]
+# Read the Example1.txt
 
+example1 = "/content/gdrive/My Drive/Colab Notebooks/example1.txt"
+file1 = open(example1, "r") #"r"는 example1 객체를 읽을 수 있는 상태로 만들자
+
+[The name of the file:]
+# Print the path of file
+file1.name
+/content/gdrive/My Drive/Colab Notebooks/example1.txt
+
+[The mode the file object is in:]
+# Print the mode of file, either 'r' or 'w'
+file1.mode
+'r'
+
+[We can read the file and assign it to a variable :]
+# Read the file
+FileContent = file1.read()
+FileContent
+'This is line 1\nThis is line 2\nThis is line 3\n(empty)\nThis is line 4\n\n'
+
+[We can print the file:]
+# Print the file with '\n' as a new line
+print(FileContent)
+This is line 1
+This is line 2
+This is line 3
+(empty)
+This is line 4
