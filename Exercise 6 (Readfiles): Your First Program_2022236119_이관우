@@ -28,3 +28,32 @@ This is line 2
 This is line 3
 (empty)
 This is line 4
+
+[The file is of type string:]
+# Type of file content
+type(FileContent)
+str
+
+[We must close the file object:]
+# Close file after finish
+file1.close()
+
+[A Better Way to Open a File]
+# Open file using with
+with open(example1, "r") as file1:
+    FileContent = file1.read()
+    print(FileContent)
+
+This is line 1
+This is line 2
+This is line 3
+(empty)
+This is line 4
+
+[The file object is closed, you can verify it by running the following cell:]
+# Verify if the file is closed
+file1.closed
+True
+
+[We can see the info in the file:]
+# See the content of file
