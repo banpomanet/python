@@ -57,3 +57,13 @@ True
 
 [We can see the info in the file:]
 # See the content of file
+print(FileContent)
+This is line 1
+This is line 2
+This is line 3
+(empty)
+This is line 4
+
+[We don’t have to read the entire file, for example, we can read the first 4 characters by entering three as a parameter to the method .read():]
+# Read first four characters
+
