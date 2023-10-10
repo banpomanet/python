@@ -1,0 +1,5 @@
+from google.colab import drive # 나의 구글 드라이브에 접근할 수 있는 권한을 부여하는 것 # 내가 가지고 있는 구글드라이브에서 파일 입출력을 하기 위해서
+drive.mount('/content/gdrive')
+
+with open('/content/gdrive/My Drive/Colab Notebooks/example2.txt', 'w') as writefile:
+    writefile.write("This is line A")
