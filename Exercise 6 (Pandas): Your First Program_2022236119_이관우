@@ -1,1 +1,15 @@
+import pandas as pd
+
+data = {'Name':['Tom', 'nick', 'krish', 'jack'],
+        'Age':[20, 21, 19, 18]}
+
+df = pd.DataFrame(data)
+
+print(df)
+    Name  Age
+0    Tom   20
+1   nick   21
+2  krish   19
+3   jack   18
+
 
