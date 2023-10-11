@@ -1,61 +1,13 @@
-import pandas as pd
+q=df[['Rating']] #(1)번 퀴즈
+q
 
-data = {'Name':['Tom', 'nick', 'krish', 'jack'],
-        'Age':[20, 21, 19, 18]}
-
-df = pd.DataFrame(data)
-
-print(df)
-    Name  Age
-0    Tom   20
-1   nick   21
-2  krish   19
-3   jack   18
-
-from google.colab import drive
-drive.mount('/content/gdrive')
-
-Mounted at /content/gdrive
-
-import pandas as pd
-
-csv_path = '/content/gdrive/My Drive/Colab Notebooks/TopSellingAlbums.csv'
-df = pd.read_csv(csv_path)
-
-df.tail()
-
-df.head()
-
-xlsx_path = '/content/gdrive/My Drive/Colab Notebooks/TopSellingAlbums.xlsx'
-
-df1 = pd.read_excel(xlsx_path)
-df1.head()
-
-x = df[['Genre']]
-x
-
-x = df[['Length']]
-x
-
-x=df[['Artist']]
-x
-
-y=df[['Artist','Length','Genre']]
-y
-
-df.iloc[0,0]
-Michael Jackson
-
-df.iloc[1,0]
-AC/DC
-
-df.loc[0,'Artist']
-Michael Jackson
-
-df.loc[1,'Artist']
-AC/DC
-
-df.loc[0,'Released']
-1982
-
+Rating
+0	10.0
+1	9.5
+2	9.0
+3	8.5
+4	8.0
+5	7.5
+6	7.0
+7	6.5
 
