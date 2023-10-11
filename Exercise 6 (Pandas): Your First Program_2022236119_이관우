@@ -24,3 +24,6 @@ Released	Artist
 6	1977	Bee Gees
 7	1977	Fleetwood Mac
 
+df.iloc[1,2] # (3)번 퀴즈
+1980
+
