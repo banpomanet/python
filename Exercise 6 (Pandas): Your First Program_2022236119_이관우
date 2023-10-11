@@ -11,3 +11,16 @@ Rating
 6	7.0
 7	6.5
 
+q=df[['Released','Artist']] # (2)번 퀴즈
+q
+
+Released	Artist
+0	1982	Michael Jackson
+1	1980	AC/DC
+2	1973	Pink Floyd
+3	1992	Whitney Houston
+4	1977	Meat Loaf
+5	1976	Eagles
+6	1977	Bee Gees
+7	1977	Fleetwood Mac
+
