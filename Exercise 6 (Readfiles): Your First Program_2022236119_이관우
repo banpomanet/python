@@ -9,3 +9,37 @@ file1 = open(example1, "r")
 file1.name
 /content/gdrive/My Drive/Colab Notebooks/example1.txt
 
+file1.mode
+'r'
+
+FileContent = file1.read()
+FileContent
+'This is line 1\nThis is line 2\nThis is line 3\n(empty)\nThis is line 4\n\n'
+
+print(FileContent)
+This is Line 1
+This is Line 2
+This is Line 3
+
+type(FileContent)
+str
+
+file1.close()
+
+with open(example1, "r") as file1:
+    FileContent = file1.read()
+    print(FileContent)
+
+This is Line 1
+This is Line 2
+This is Line 3
+
+file1.closed
+True
+
+print(FileContent)
+This is Line 1
+This is Line 2
+This is Line 3
+
+
