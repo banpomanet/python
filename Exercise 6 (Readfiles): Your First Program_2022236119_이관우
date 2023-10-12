@@ -1,0 +1,11 @@
+from google.colab import drive
+drive.mount('/content/gdrive')
+
+Mounted at /content/gdrive
+
+example1 = "/content/gdrive/My Drive/Colab Notebooks/example1.txt"
+file1 = open(example1, "r")
+
+file1.name
+/content/gdrive/My Drive/Colab Notebooks/example1.txt
+
