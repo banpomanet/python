@@ -1,14 +1,19 @@
 a_list=[1, 'hello', [1,2,3], True] # 3과 list (1번 퀴즈)
 a_list
+[1, 'hello', [1, 2, 3], True]
 
 a_list[1] # 2번 퀴즈
+hello
 
 a_list[1:4] # 3번 퀴즈
+['hello', [1, 2, 3], True]
 
 A = [1, 'a'] # 4번 퀴즈
 B = [2, 1, 'd']
 A + B
+[1, 'a', 2, 1, 'd']
 
 A = [1, 'a'] # 4번 퀴즈 다른 방법
 A.append ([2, 1, 'd'])
 A
+[1, 'a', [2, 1, 'd']]
